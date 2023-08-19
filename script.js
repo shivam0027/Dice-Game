@@ -26,3 +26,8 @@ else if(randomNumber1<randomNumber2)
  {
     document.querySelector("h1").innerText="Draw !"
  }
+
+ document.addEventListener("click", function()
+ {
+    location.reload()
+ })
